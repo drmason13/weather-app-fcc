@@ -1,0 +1,73 @@
+html, main {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: calc(2vw + 2vh);
+  text-align: center;
+}
+h1, h2 {
+  margin: 0;
+}
+.row {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+#content {
+  flex: 1 1 auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: stretch;
+}
+a {
+  color: #107fc9;
+  text-decoration: none;
+}
+button {
+  font-size: 1em;
+  background: none;
+  color: #78F6F3;
+  text-shadow:0 0 5px black;
+  border: none;
+}
+button:hover, button:active {
+  transform:scale(1.1);
+}
+button:active {
+  text-shadow:0 0 8px #ffc600;
+}
+
+.day {
+  color: #333;
+  background: linear-gradient( 0deg, #E7F2F5, #C5E0E6, #7fa4b2 );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.night {
+  color: #eee;
+  background: linear-gradient( 0deg, #736F84, #146 30%, black );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.sunrise {
+  color: #111;
+  background: linear-gradient( 0deg, #EB895B, #FFD8B7 40%, #AED7EE );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.sunset {
+  color: #111;
+  background: linear-gradient( 0deg, #EB895B, #F7F681 40%, #7E577F );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

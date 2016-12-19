@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width", initial-scale="1.0" />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id = "header">
+      <h1 class="font">Open Weather App</h1>
+    </div>
+    <div id="content">
+      <div id="weather-graphic-box">
+        <img id="weather-graphic" src="">
+      </div>
+      <div id="weather-description-box">
+        <p id='weather-description' class='description'></p>
+        <div class = "row">
+          <h2 id="temp"></h2><h2> &deg</h2><h2><button id="toggle-temp" data-unit="celsius">C</button></h2>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="locationStatus">
+        Searching for your location...
+      </div>
+    </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="client.js"></script>
+  </body>
+</html>
